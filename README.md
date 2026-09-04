@@ -1,0 +1,1 @@
+One thing to know when you add new files. Because the database now builds only once, dropping new files into documents won't show up automatically. To load new files, delete the chroma_db folder and run the script once. It rebuilds from scratch with everything in the folder
